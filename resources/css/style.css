@@ -1,0 +1,107 @@
+* {
+}
+
+/* Universal Styles */
+
+html {
+    font-family: "Verdana", sans-serif;
+    color: white;
+    background-color: black;
+}
+body {
+    margin: 0 auto;
+    padding: 0 0 100px 0;
+    z-index: 1;
+}
+/* Padding makes space for margin at scroll-end, margin centers content */
+
+/* Discover Hidden */
+.header-1 {
+    font-size: 50px;
+    font-weight: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex-shrink: 1;
+}
+.header-1 span {
+    text-align: center;
+}
+
+.download-link {
+    font-size: 16px;
+    color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+.iphone-vid {
+    display: flex;
+    justify-content: center;
+}
+
+/* Travel Guide */
+.header-2 span {
+    font-size: 50px;
+    font-weight: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.header-2 h3 {
+    font-size: 21px;
+    color: gray;
+    font-weight: normal;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.camp-photo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+/* Closing Argument */
+.iPhone-icon {
+    display: flex;
+    justify-content: center;
+}
+.header-3 {
+    font-size: 50px;
+    font-weight: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 50px auto;
+}
+
+/* Footer */
+footer {
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+    font-size: 21px;
+    padding: 40px 0;
+    z-index: 2;
+    position: fixed;
+    bottom: 0px;
+    background-color: black;
+}
+footer .footer-text {
+    color: grey;
+    margin: 0 40px;
+}
